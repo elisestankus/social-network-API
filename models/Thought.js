@@ -28,3 +28,8 @@ const thoughtSchema = new Schema(
         }
     },
 )
+
+//creating a new instance of the thought model
+const Thought = model('Thought', thoughtSchema);
+
+module.exports = Thought;
