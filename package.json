@@ -1,0 +1,14 @@
+{
+    "name": "social-network-API",
+    "version": "1.0.0",
+    "description": "social network api",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "start": "node index"
+    },
+    "dependencies": {
+        "express": "^4.17.1",
+        "mongoose": "^7.0.2"
+    }
+}
