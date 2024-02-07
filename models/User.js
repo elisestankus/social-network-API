@@ -38,7 +38,7 @@ const userSchema = new Schema (
     }   
 );
 
-//virtual to get friend count for each thought
+//virtual to get friend count for each user
 userSchema.virtual('friendCount').get(function () {
     return this.friends.length;
 });
